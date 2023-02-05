@@ -38,8 +38,8 @@ the Kubernetes API directly in your own programs using one of the
 
 Almost every Kubernetes object includes two nested object fields that govern
 the object's configuration: the object *`spec`* and the object *`status`*.
-For objects that have a `spec`, you have to set this when you create the object,
-providing a description of the characteristics you want the resource to have:
+For objects that have a `spec`, which is set at the time of creation,
+you have to provide a description of the characteristics you want the resource to have:
 its _desired state_.
 
 The `status` describes the _current state_ of the object, supplied and updated
